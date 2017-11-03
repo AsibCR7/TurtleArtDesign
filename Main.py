@@ -1,0 +1,36 @@
+from turtle import *
+import turtle
+from DesignFunctions import *
+
+bob = turtle.Turtle()
+#MAKE IT FULL SCREEN
+turtle.bgcolor('black')
+#time.sleep(7)
+bob.speed(0)
+ht()
+
+shape(bob,0)
+bob.penup()
+bob.goto(700,380)
+bob.pendown()
+creation(bob,0)
+bob.penup()
+bob.goto(700,-380)
+bob.pendown()
+creation(bob,0)
+bob.penup()
+bob.goto(-700,-380)
+bob.pendown()
+creation(bob,0)
+bob.penup()
+bob.goto(-700,380)
+bob.pendown()
+creation(bob,0)
+bob.penup()
+bob.goto(700,0)
+bob.pendown()
+creation(bob,0)
+bob.penup()
+bob.goto(-700,0)
+bob.pendown()
+creation(bob,0)
